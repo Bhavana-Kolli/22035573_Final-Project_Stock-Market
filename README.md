@@ -47,8 +47,13 @@ Input sequences (‘look_back’ = 80 days) for LSTM training were developed usi
     }
 #### Stacking Ensemble Model:
 Ridge Regressor as a meta-learner combined predictions from individual models i.e, from RF, SVM, and LSTM.
+<img width="669" alt="Screenshot 2025-01-04 at 12 40 50" src="https://github.com/user-attachments/assets/bc426e65-2281-4264-b605-88c9ebea0efc" />
+### 5. Output:
+(i) Plotted predicted vs actual prices of Random Forest, SVM, LSTM, and Stacking models for all 3 stocks.
 
+(ii) Plotted future prediction for next 1 month using LSTM model.
 
+(iii) Plotted model accuracy comparison charts for each stock in the form of horizontal bar graph.
 
 
 
